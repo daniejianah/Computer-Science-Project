@@ -1,0 +1,84 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage{graphicx}
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+		{\scshape\LARGE University of Burgundy  \par}
+		\vspace{1cm}
+		{\scshape\Large Computer Science project\par}
+		\vspace{4cm}
+		{\huge\bfseries PIXEL ART \par}
+		\vspace{4cm}
+		{\Large\ Danie Jianah SONIZARA\par}
+		\vfill
+		supervised by\par
+		Pr.Yohan FOUGEROLLE \textsc{}
+		
+		\vfill
+		\vspace{0.5cm}
+		{\scshape\Small Centre Universitaire Condorcet - Le Creusot \par}
+		{\scshape\Small May 23rd , 2017 \par}
+		\end{center}
+	
+	
+		
+		\begin{document}
+		\tableofcontents
+		\newpage
+		\renewcommand{\thesection}{\arabic{section}}
+		\section{Objectives}
+		\begin {justify}
+		The aim of this project is to propose and implement a Qt/C++ application related to color in the general sense.
+		The project is composed of a common set of tasks which concern the Pixelisation of an image  and the Pixel Art rending. 
+		The common functionalities of the project can be summarized as follows: 	
+		\paragraph {Pixelisation of an image:} \leavevmode\\
+		Pixelise an image, requires:\newline
+		- The ability to load and display an image located anywhere on the hard drive, and to save any processed image.\newline
+		- The provided software should allow to transform the loaded image into a second one such that the pixels’ color of the second image is computed according to various methods (average, median, most represented color, etc.) so that the image is pixelized. For instance, the image below shows an example of the expected result :
+\newline
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics{"Example of pixelised image".png}
+			\caption{Example of pixelised image }
+		\end{figure}
+		
+		
+		
+		\paragraph {Pixel Art rending:}  \leavevmode\\
+		 In this context, the pixelized image has to be transformed into a third one in which its “big and blurred” pixels are now represented with images from a set of images of our own choice as many images as we want. The only restriction being that these images should not be included as
+		resources of the project, so that the application can automatically load any “database” of provided images from your the without recompiling then entire program.
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics{"Example of PixArt".png}
+			\caption{Example of Pixel Art using Lego and and set of images }
+		\end{figure} 
+	
+		\section{Pixelization:}
+		\section{Pixel Art rending}
+		\section {Result}
+			\begin{figure}[h]
+			\centering
+			\includegraphics{"carPixelised".png}
+			\caption{Result of the pixelization of an image }
+		\end{figure}
+		
+		\section{Conclusion}
+		The aim of this project was to create a mosaic image of a pixelized image from a set of images.
+		These objectives were achieved despite some imperfections. My code is usable under qt.
+		By a user having knowledge of the operation of the software. The code  will be improveable since there are still point to be reviewed.
+		Finally, it would be interesting to create a graphical interface for Windows so that Program can be used by any user.
+		
+		
+		
+		\listoffigures
+		\end {justify}
+		
+		\end{document}
+	\subsection{Subsection}sg
+		% Bottom of the page
+		{\large \today\par}
+		
+	\end{titlepage}
+\end{document}
